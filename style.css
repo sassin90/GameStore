@@ -1,0 +1,261 @@
+body{
+background:#E4E4E4 url(image/background.png) right top fixed no-repeat;
+margin:0 0 0 0;
+}
+
+#header{
+width:100%;
+height:10;
+background:#111 url(image/header.png);
+}
+#search{
+margin-left:10;
+padding-bottom:0;
+}
+.srch{
+color:#fff;
+background-color:#000;
+padding:5 0 5 4;
+berder:0;
+border-radius:6px;
+}
+#title a{
+color:#222;
+font-size:80px;
+font-family:"5";
+}
+#title a:hover{text-decoration:none;}
+/*--------------menu 1----------------*/
+#menu1{
+width:100%;
+text-align:left;
+font-family:"2";
+font-size:22;
+color:#000;
+list-style-type:none;
+margin:10 0;
+padding:0;
+}
+#menu1 li{
+	font-size:22px;
+	font-family:"2";
+}
+#menu1 a{
+color:#000;
+font-size:1em;
+text-decoration:none;
+float:left;
+padding-right:16;
+}
+#menu1 a:hover{
+text-decoration:none;
+color:#D00000;
+}
+/*--------------menu 2----------------*/
+#menu2{
+width:100%;
+text-align:left;
+font-family:"2";
+font-size:20;
+color:#909090;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#menu2 li{
+	font-size:20;
+	font-family:"2";
+}
+#menu2 a{
+color:#909090;
+font-size:1em;
+text-decoration:none;
+float:left;
+padding-right:18;
+}
+#menu2 a:hover{
+text-decoration:none;
+color:#222;
+}
+/*************** menu left ******************/
+#menuleft{
+font-family:"1";
+font-size:18;
+color:#909090;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#menuleft li{
+	font-size:18;
+	font-family:"1";
+	text-align:center;
+	padding-top:1;
+}
+#menuleft a{
+text-decoration:none;
+color:#fff;
+background:url(image/tab2.png);
+display:block;
+text-decoration:none;
+padding:10;
+border-radius:12px;
+}
+#menuleft a:hover{background:#111 url(image/tab1.png);display:block;border-radius:12px;}
+/*--------------menu footer----------------*/
+#menufooter{
+font-family:"3";
+font-size:16;
+color:#909090;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#menufooter li{
+	font-size:16;
+	font-family:"3";
+}
+#menufooter a{
+color:#909090;
+font-size:1em;
+text-decoration:none;
+}
+#menufooter a:hover{
+text-decoration:none;
+color:#222;
+}
+.copyrights{
+color:#666;
+font-size:15;
+font-family:2;
+}
+#footerbotle{
+padding:5 20 20 20;
+color:#333;
+font-family:"3";
+font-size:16;
+}
+/*---------------   ---------------*/
+#bodiv{
+margin:30 50 30 30;
+font-family:"3";
+font-size:16;
+}
+#tab1{
+color:#EEE;
+font-family:"1";
+font-size:24;
+}
+/*********** red botle ******************/
+
+#redbotle{
+padding:22;
+color:#fff;
+font-family:"3";
+font-size:18;
+}
+td.grisbotle1 a,td.grisbotle a{
+color:#bbb;
+font-family:"3";
+font-size:16;
+}
+#redbotle2{
+padding:18 22 18 22;
+color:#fff;
+font-family:"2";
+font-size:22;
+}
+#redtab{
+background:#D01818 url(image/tab3.png) repeat-x;
+color:#eee;
+font-family:"1";
+font-size:20;
+}
+strong.strng{
+color:#fff;
+}
+#gtitle{
+color:#000;
+background:#bbb url(image/background.png) top right fixed no-repeat;
+font-size:24;
+font-family:'2';
+}
+#gdiscri{
+padding:20;
+color:#000;
+font-size:18;
+font-family:'3';
+}
+#gtype{
+color:#666;
+font-size:19;
+font-family:'2';
+}
+#connect{
+padding:20;
+color:#fff;
+background:#D01818;
+text-align:center;
+font-size:20;
+font-family:'2';
+border-radius:8px;
+}
+/***************************************/
+table td.grisbotle2{background:#ccc url(image/background.png) top right fixed no-repeat;border-radius:40px;}
+table td.grisbotle2:hover{background:#EFEFEF url(image/background.png) top right fixed no-repeat;border-radius:40px;}
+table td.grisbotle1{background-color:#333;}
+table td.grisbotle1:hover{background-color:#000;}
+table td.grisbotle0{background:#999 url(image/background.png) top right fixed no-repeat;border-radius:30px;}
+table td.grisbotle0:hover{background:#ccc url(image/background.png) top right fixed no-repeat;border-radius:30px;}
+table td.grisbotle{background-color:#000;border-radius:40px;}
+table td.grisbotle:hover{background-color:#D01818;border-radius:40px;}
+/************ GAMES *************/
+center.top{
+font-size:80;
+font-family:"3";
+color:#ddd;
+}
+/********* ************/
+#n1,#n2,#n3,#n4{
+font-size:40;
+font-family:'2';
+}
+#t{
+font-size:28;
+font-family:'2';
+}
+/**** fonts ***********/
+@font-face {
+	font-family:"1";
+	src: url('font/font-1.ttf');
+}
+@font-face {
+	font-family:"2";
+	src: url('font/font-2.ttf');
+}
+@font-face {
+	font-family:"3";
+	src: url('font/font-3.ttf');
+}
+@font-face {
+	font-family:"4";
+	src: url('font/DISTRO.ttf');
+}
+@font-face {
+	font-family:"5";
+	src: url('font/go3v2.ttf');
+}
+@font-face {
+	font-family:"6";
+	src: url('font/Younger than me.ttf');
+}
+@font-face {
+	font-family:"7";
+	src: url('font/sony.ttf');
+}
+a.white{color:#D01818;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+table td a.a1{color:#fff;background:url(image/tab2.png);display:block;height:38;text-decoration:none;}
+table td a.a2{color:#fff;background:url(image/tab1.png);display:block;height:38;text-decoration:none;}
+a.a1:hover,a.a2:hover{background:#111 url(image/tab3.png);display:block;}

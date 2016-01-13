@@ -1,0 +1,4 @@
+AuthName "Access Admin Only"
+AuthType Basic
+AuthUserFile "C:\wamp\www\zprojet\admin\.htpasswd"
+Require valid-user
